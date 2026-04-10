@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import  {useState} from 'react'
 
 
-const counter =()=> {
+const Counter =()=> {
     //count=0
     const[count,setcount]=useState(0)
   
@@ -36,4 +36,4 @@ return(
 
 
 
-export default counter
+export default Counter
