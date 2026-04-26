@@ -8,7 +8,7 @@ function SensorData(props){
     const statusColor=props.value>50?"green":"red";
 
     const style={
-    border: '`2px solid ${statusColor}',
+    border: '2px solid ${statusColor}',
     borderRadius: '10px',
     padding: '15px',
     margin: '10px',
@@ -18,8 +18,8 @@ function SensorData(props){
     };
     return(
         <div style={style}>
-            <h3>    Sensor name:{prop.sensorName}</h3>
-            <h1 style={{statusColor}}>{props.value}</h1>
+            <h3>    Sensor name:{props.sensorName}</h3>
+            <h1 style={{color:statusColor}}>{props.value}</h1>
 
             {/* Dynamic message based on value */}
             <p>{props.value > 50 ? "⚠️ DANGER: OVERHEATING" : "✅ SYSTEM NORMAL"}</p>

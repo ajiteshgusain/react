@@ -88,7 +88,7 @@
 // export default App
 
 // challenge2
-import  SensorData from "./SensorData.jsx";
+import  SensorData from "./components/SensorData"
 
 
 function App(){
