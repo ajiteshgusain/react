@@ -11,7 +11,7 @@
 //     if(para ==="welcome to javascript")
 //       {setPara("welcome to feel the magic of react js")
 
-//       }else{
+//     }else{
 //         setPara("welcome to javascript")
       
 //       }
@@ -88,32 +88,43 @@
 // export default App
 
 // challenge2
-import  SensorData from "./components/SensorData"
 
 
-function App(){
-  return(
-    <div style={{ padding: '40px', fontFamily: 'sans-serif' }}>
-      <h1>River Robot Sensor Dashboard</h1>
-      <hr />
+// learning if else in react
 
-    <div style={{ display: 'flex', gap: '20px' }}>
-    <SensorData sensorName="Battery temp" value={32}/>
+// function App(){
+//   const islogged=true;
+//   if(islogged){
+//     return <h1> you logged in succesfully.</h1>
 
-
-    {/* Pass a high value (Red) */}
-        <SensorData sensorName="Battery Temp" value={68} />
-
-        {/* Pass another low value (Green) */}
-        <SensorData sensorName="Water Sensor" value={25} />
-
-
+//   }else{
     
-    </div>
-    </div>
-  )
-
-}
+//     return <h1>sorry some error occured</h1>;
+//   }
 
 
-export default App
+// }
+
+
+// export default App
+
+
+// now doing the same thing using ternary operator
+
+
+// function App(){
+//   const islogged=false;
+  
+  
+//   return(
+
+//     <div>
+//       {islogged? <h1>welcome you have logged</h1>:<h1>some thing happed please try again</h1>}
+//     </div>
+//   )
+
+
+// }
+
+
+// export default App
