@@ -1,5 +1,6 @@
 import PracticeReact from "./components/PracticeReact";
-
+import LearningProps from "./components/LearningProps";
+import DesctructingProps from "./components/DestructingProps";
 function  App(){
   return(
     <div>
@@ -7,7 +8,11 @@ function  App(){
         hello you are cool react , you !! react nicely 
       </h1>
 
-      <p><PracticeReact/></p>
+      <PracticeReact/>
+
+      <LearningProps name="SASHA"/>
+
+      <DesctructingProps name="chuchiku"/>
     </div>
   )
 
