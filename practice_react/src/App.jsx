@@ -4,6 +4,8 @@ import DesctructingProps from "./components/DestructingProps";
 import UsingState from "./components/UsingState";
 import MiniProject from "./components/MiniProject";
 import Styling from "./components/Styling";
+import UsingEffect from "./components/UsingEffect";
+
 function  App(){
   return(
     <div>
@@ -22,7 +24,10 @@ function  App(){
       <UsingState/> */}
       {/* <MiniProject/> */}
 
-      <Styling/>
+      {/* <Styling/>*/}
+      {/* <UsingEffect/>*/}
+
+      
     </div>
   )
 
