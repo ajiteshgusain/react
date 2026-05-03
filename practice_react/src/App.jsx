@@ -3,7 +3,7 @@ import LearningProps from "./components/LearningProps";
 import DesctructingProps from "./components/DestructingProps";
 import UsingState from "./components/UsingState";
 import MiniProject from "./components/MiniProject";
-
+import Styling from "./components/Styling";
 function  App(){
   return(
     <div>
@@ -20,7 +20,9 @@ function  App(){
       <h1>counter app</h1>
 
       <UsingState/> */}
-      <MiniProject/>
+      {/* <MiniProject/> */}
+
+      <Styling/>
     </div>
   )
 
