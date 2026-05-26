@@ -5,6 +5,7 @@ import UsingState from "./components/UsingState";
 import MiniProject from "./components/MiniProject";
 import Styling from "./components/Styling";
 import UsingEffect from "./components/UsingEffect";
+import ApiCall from "./components/ApiCall";
 
 function  App(){
   return(
@@ -27,7 +28,10 @@ function  App(){
       {/* <Styling/>*/}
       {/* <UsingEffect/>*/}
 
-      
+
+      <ApiCall/>
+
+
     </div>
   )
 
